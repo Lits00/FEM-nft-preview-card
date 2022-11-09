@@ -1,0 +1,115 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit';
+}
+
+h3{
+    margin: 15px 0;
+}
+
+p{
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+hr{
+    border:none;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.t-style{
+    color: hsl(0, 0%, 100%);
+}
+
+.t-style:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 5rem auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+.img-container{
+    max-width: 260px;
+    width: 100%;
+    margin: 20px auto 0;
+    position: relative;
+}
+
+.pic{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.overlay-effect{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    height: 98%;
+    width: 100%;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 8px;
+}
+
+.overlay-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.overlay-effect:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin: 0 0 0 5px;
+}
+.data-img{
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+.nft{
+    color: hsl(178, 100%, 50%);
+}
+
+.main-content{
+    width: 255px;
+    margin: auto;
+}
+
+.user{
+    height: 50px;
+}
+
+.user-avatar{
+    width: 30px;
+    float: left;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 100%;
+    padding: 1px;
+    margin: 0 10px 0 0;
+}
+.user-txt{
+    padding: 6px;
+    font-size: 13.5px;
+}
